@@ -1,4 +1,5 @@
-# four2assets
+# assets branch
+
 Assets of [irenie.site](https://www.irenie.site)
 
 **SOURCE**
@@ -9,4 +10,4 @@ Assets of [irenie.site](https://www.irenie.site)
 
 **LINK**
 
-Jsdeliver CDN: https://cdn.jsdelivr.net/gh/ren-ie/four2assets@master/dir/filename.*
+Jsdeliver CDN: https://cdn.jsdelivr.net/gh/ren-ie/four2@assets/dir/filename.*
