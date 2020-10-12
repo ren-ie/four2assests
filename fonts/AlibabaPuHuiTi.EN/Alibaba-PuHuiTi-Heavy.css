@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Heavy";
+    src: url("Alibaba-PuHuiTi-Heavy.eot"); /* IE9 */
+    src: url("Alibaba-PuHuiTi-Heavy.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("Alibaba-PuHuiTi-Heavy.woff") format("woff"), /* chrome、firefox */
+    url("Alibaba-PuHuiTi-Heavy.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("Alibaba-PuHuiTi-Heavy.svg#Alibaba-PuHuiTi-Heavy") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
