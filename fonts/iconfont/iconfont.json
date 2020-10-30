@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "978607",
+      "name": "douban-square",
+      "font_class": "doubansquare",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1509893",
+      "name": "逸行樱花logo",
+      "font_class": "yihangyinghualogo",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "13592903",
+      "name": "备案",
+      "font_class": "beian",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "16061352",
+      "name": "ICP备案",
+      "font_class": "ICPbeian",
+      "unicode": "e53e",
+      "unicode_decimal": 58686
+    }
+  ]
+}
