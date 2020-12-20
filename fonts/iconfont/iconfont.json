@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "386278",
+      "name": "baidu",
+      "font_class": "baidu",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
       "icon_id": "978607",
       "name": "douban-square",
       "font_class": "doubansquare",
@@ -20,18 +27,11 @@
       "unicode_decimal": 58933
     },
     {
-      "icon_id": "13592903",
-      "name": "备案",
-      "font_class": "beian",
-      "unicode": "e712",
-      "unicode_decimal": 59154
-    },
-    {
-      "icon_id": "16061352",
-      "name": "ICP备案",
-      "font_class": "ICPbeian",
-      "unicode": "e53e",
-      "unicode_decimal": 58686
+      "icon_id": "15378180",
+      "name": "bing",
+      "font_class": "bing",
+      "unicode": "eb4c",
+      "unicode_decimal": 60236
     }
   ]
 }
