@@ -6,13 +6,6 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "386278",
-      "name": "baidu",
-      "font_class": "baidu",
-      "unicode": "e6b6",
-      "unicode_decimal": 59062
-    },
-    {
       "icon_id": "978607",
       "name": "douban-square",
       "font_class": "doubansquare",
@@ -27,11 +20,18 @@
       "unicode_decimal": 58933
     },
     {
-      "icon_id": "15378180",
-      "name": "bing",
-      "font_class": "bing",
-      "unicode": "eb4c",
-      "unicode_decimal": 60236
+      "icon_id": "6808513",
+      "name": "Bing",
+      "font_class": "Bing",
+      "unicode": "eddb",
+      "unicode_decimal": 60891
+    },
+    {
+      "icon_id": "15378167",
+      "name": "baidu",
+      "font_class": "baidu",
+      "unicode": "eb49",
+      "unicode_decimal": 60233
     }
   ]
 }
