@@ -14,8 +14,8 @@ WARN='\x1b[33mWARN \x1b[0m'
 echo "\n$INFO [ >> GIT ADD, STATUS, COMMIT ]"
 echo "$INFO jsdeliver project dir: `pwd`"
 git add .
-git status
-git commit -m "update." | tee /tmp/git.out
+git status | tee /tmp/git.out
+git commit -m "update."
 # 检查方式 1: 检查是否有文件提交
 if [ -n "`grep 'nothing to commit, working tree clean' /tmp/git.out`" ]; then
     echo "$WARN nothing to update. don't refresh cdn." 
