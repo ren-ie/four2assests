@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-PURGE_URL_PREFIX='https://purge.jsdelivr.net'
+CDN_PURGE='https://purge.jsdelivr.net'
 GH_ACCOUNT='reniie'
 GH_REPO='four2'
 GH_BRABCH='assets'
-PURGE_URL_PREFIX=$PURGE_URL_PREFIX'/gh/'$GH_ACCOUNT'/'$GH_REPO'@'$GH_BRABCH'/'
+URL_PREFIX=$CDN_PURGE'/gh/'$GH_ACCOUNT'/'$GH_REPO'@'$GH_BRABCH'/'
 
 # log level
 ERROR='\x1b[31mERROR\x1b[0m'
@@ -26,5 +26,7 @@ echo "\n$INFO [ >> GIT PUSH ]"
 git push
 
 echo "\n$INFO [ >> PURGE JSDELIVER CDN ]"
-
-
+FILES=`git log -z --name-only -1 | tr '\000' " " | tail -1f`
+for ITEM in `echo $FILES`; do
+    echo "$INFO purge: $URL_PREFIX$ITEM"
+done
